@@ -6,12 +6,12 @@
  */
 int main(void)
 {
-	int ones = '0';
-	int tens = '0';
+	int tens;
+	int ones;
 
-	for (tens = '0'; tens <= '9'; tens++)/* prints tens digit*/
+	for (tens = 0; tens <= 9; tens++)/* prints tens digit*/
 	{
-		for (ones = '0'; ones <= '9'; ones++)/* prints ones digit*/
+		for (ones = tens + 1; ones <= 9; ones++)/* prints ones digit*/
 		{
 			putchar(tens + '0');
 			putchar(ones + '0');
