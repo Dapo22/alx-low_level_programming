@@ -2,6 +2,7 @@
 
 /**
  * print_alphabet_x10 - prints alpha 10 times
+ * Return: On success 1
  */
 void print_alphabet_x10(void)
 {
