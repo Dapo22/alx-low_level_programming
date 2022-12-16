@@ -1,4 +1,4 @@
-#include "main.h"
+#include <stdio.h>
 
 /**
  * main - prints Buzz each numbers of 3 and 5
@@ -26,9 +26,9 @@ int main(void)
 		}
 		else
 		{
-			printf("%d", n);
+			printf(" %d", n);
 		}
 	}
-	printf('\n');
+	printf("\n");
 	return (0);
 }
