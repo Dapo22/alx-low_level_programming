@@ -5,7 +5,7 @@
  * @size: numbers of lines
  * Return: no return
  */
-void print_triangles(int size)
+void print_triangle(int size)
 {
 	int i, j;
 
@@ -13,7 +13,7 @@ void print_triangles(int size)
 	{
 		for (j = 1; j < (size - 1); j++)
 			_putchar(' ');
-		for (j--; j < (size; j++)
+		for (j--; j < size; j++)
 			_putchar(35);
 		if (i < (size - 1))
 		_putchar('\n');
