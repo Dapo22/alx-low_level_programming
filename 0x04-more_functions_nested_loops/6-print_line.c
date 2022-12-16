@@ -4,7 +4,7 @@
  * print_line - prints straight line n times.
  *
  * @n: times straight line is printed.
- * Retrun: no return
+ * Return: no return
  */
 void print_line(int n)
 {
